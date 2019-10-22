@@ -5,6 +5,7 @@
 * Tabla usuarios
   * id  (int, llave primaria, auto incrementable)
   * email (varchar 100)
+  * nombre (varchar 100)
   * password (hash, varchar 32)  
   * creacion (datetime)
   * actualizacion (datetime)
