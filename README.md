@@ -1,5 +1,20 @@
 # Instrucciones
 
+### Base de datos
+
+* Tabla usuarios
+  * id  (int, llave primaria, auto incrementable)
+  * email (varchar 100)
+  * password (hash, varchar 32)  
+  * creacion (datetime)
+  * actualizacion (datetime)
+  
+* Tabla propositos
+  * id  (int, llave primaria, auto incrementable)
+  * id_usuario (int, llave foránea)
+  * proposito (varchar 150)
+  * vencimiento (date)
+
 ### Aplicación
 
 #### Directorio raíz 
@@ -21,17 +36,6 @@
 
 Nota: la aplicación debe permitir a usuarios registrados y autenticados crear, actualizar y borrar sus propósitos de año nuevo.
 
-### Base de datos
+#### Diagrama
 
-* Tabla usuarios
-  * id  (int, llave primaria, auto incrementable)
-  * email (varchar 100)
-  * password (hash, varchar 32)  
-  * creacion (datetime)
-  * actualizacion (datetime)
-  
-* Tabla propositos
-  * id  (int, llave primaria, auto incrementable)
-  * id_usuario (int, llave foránea)
-  * proposito (varchar 150)
-  * vencimiento (date)
+![diagrama](diagrama.png "Diagrama de flujo")
