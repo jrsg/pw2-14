@@ -36,6 +36,6 @@
 
 Nota: la aplicación debe permitir a usuarios registrados y autenticados crear, actualizar y borrar sus propósitos de año nuevo.
 
-#### Diagrama
+### Diagrama
 
 ![diagrama](diagrama.png "Diagrama de flujo")
