@@ -32,8 +32,15 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
+    <!-- mostrar la imagen en la funcionalidad de consulta/editar
+    <div class="row my-3">
+        <div class="col-md-6">
+            <img src="../img/image-placeholder.png" class="img-thumbnail">
+        </div>
+    </div>-->
+
+    <div class="row mt-5">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>Propósito</label>
                 <input type="text" name="proposito" class="form-control">
@@ -42,32 +49,23 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>Fecha de vencimiento</label>
                 <input type="date" name="vencimiento" class="form-control"/>
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Imagen</label>
+                <input type="file" name="imagen" class="form-control"/>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
-</html>
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-
-        <title>Práctica 15</title>
-        
-        <link href="estilos.css" type="text/css" rel="stylesheet" />        
-    </head>
-
-    <body>     
-       
-        <div class="contenedor">
-
-        </div>
-    </body>
 </html>

@@ -25,6 +25,8 @@
 4. En las pantallas proposito/index.php, proposito/proposito.php y usuario/perfil.php debe mostrarse en la esquina superior derecha el e-mail del usuario autenticado.
 5. Los datos de texto del propósito y fecha de vencimiento deben ser obligatorios.
 6. En el perfil el nombre del usuario es obligatorio, sin embargo, la contraseña puede o no ser cambiada.
+7. Permitir registrar una fotografía del usuario.
+8. Permitir registrar una imagen del propósito.
 
 #### Directorio raíz 
 * index.php - pantalla inicial

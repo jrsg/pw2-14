@@ -25,15 +25,21 @@
     <h1>Perfil</h1>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Actuarlizar</button>
             </div>
         </div>
     </div>
 
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <img src="../img/image-placeholder.png" class="img-thumbnail">
+        </div>
+    </div>
+
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>E-mail</label>
                 <input type="email" name="email" class="form-control-plaintext" readonly>
@@ -42,7 +48,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>Nombre</label>
                 <input type="text" name="name" class="form-control">
@@ -51,7 +57,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>Contraseña</label>
                 <input type="password" name="pass1" class="form-control">
@@ -60,7 +66,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="form-group">
                 <label>Confirmar</label>
                 <input type="password" name="pass2" class="form-control">
