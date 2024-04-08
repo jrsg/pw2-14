@@ -49,7 +49,7 @@
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-success">Ingresar</button>
 
-                    <button type="submit" class="btn btn-secondary registrarse">Registrarse</button>
+                    <a href="#" class="btn btn-secondary registrarse">Registrarse</a>
                 </div>
             </div>
         </div>
