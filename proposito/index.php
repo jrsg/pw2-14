@@ -27,7 +27,7 @@
 
             <h1>Todos mis propósitos</h1>
 
-            <button type="button" class="btn btn-primary">Nuevo propósito</button>
+            <a href="#" class="btn btn-primary">Nuevo propósito</a>
 
             <table class="table mt-5">
                 <thead>
