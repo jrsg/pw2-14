@@ -26,7 +26,7 @@
         <div class="col-md-12">
             <h1>Propósito</h1>
 
-            <input type="submit" name="accion" value="Cancelar" class="btn btn-secondary">
+            <a href="#" class="btn btn-secondary">Cancelar</a>
             <input type="submit" name="accion" value="Guardar" class="btn btn-primary">
             <input type="hidden" name="id_proposito" value="" />
         </div>
@@ -42,8 +42,8 @@
     <div class="row mt-5">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Propósito</label>
-                <input type="text" name="proposito" class="form-control">
+                <label for="proposito">Propósito</label>
+                <input type="text" name="proposito" id="proposito" class="form-control">
             </div>
         </div>
     </div>
@@ -51,8 +51,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Fecha de vencimiento</label>
-                <input type="date" name="vencimiento" class="form-control"/>
+                <label for="vencimiento">Fecha de vencimiento</label>
+                <input type="date" name="vencimiento" id="vencimiento" class="form-control"/>
             </div>
         </div>
     </div>
@@ -60,8 +60,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Imagen</label>
-                <input type="file" name="imagen" class="form-control"/>
+                <label for="imagen">Imagen</label>
+                <input type="file" name="imagen" id="imagen" class="form-control"/>
             </div>
         </div>
     </div>

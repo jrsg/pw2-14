@@ -1,5 +1,5 @@
 <?php
-define('DB_HOST', '35.202.106.35');
+define('DB_HOST', '');
 define('DB_USER', '');
 define('DB_PASS', '');
 define('DB_NAME', '');

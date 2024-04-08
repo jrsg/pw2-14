@@ -25,7 +25,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="form-group">
-        <button type="submit" class="btn btn-primary">Guardar</button>
+                <button type="submit" class="btn btn-primary">Guardar</button>
             </div>
         </div>
     </div>
@@ -35,8 +35,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>E-mail</label>
-                <input type="email" name="email" class="form-control">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" class="form-control">
             </div>
         </div>
     </div>
@@ -44,8 +44,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Nombre</label>
-                <input type="text" name="name" class="form-control">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" class="form-control">
             </div>
         </div>
     </div>
@@ -53,8 +53,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Contraseña</label>
-                <input type="password" name="pass1" class="form-control">
+                <label for="pass1">Contraseña</label>
+                <input type="password" name="pass1" id="pass1" class="form-control">
             </div>
         </div>
     </div>
@@ -62,8 +62,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Confirmar</label>
-                <input type="password" name="pass2" class="form-control">
+                <label for="pass2">Confirmar</label>
+                <input type="password" name="pass2" id="pass2" class="form-control">
             </div>
         </div>
     </div>
@@ -71,8 +71,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <label>Fotografía</label>
-                <input type="file" name="fotografia" class="form-control"/>
+                <label for="pic">Fotografía</label>
+                <input type="file" name="pic" id="pic" class="form-control"/>
             </div>
         </div>
     </div>

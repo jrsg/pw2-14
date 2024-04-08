@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Actuarlizar</button>
+                <button type="submit" class="btn btn-primary">Actualizar</button>
             </div>
         </div>
     </div>
